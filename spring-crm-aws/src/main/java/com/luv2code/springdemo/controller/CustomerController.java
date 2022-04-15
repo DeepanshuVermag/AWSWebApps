@@ -22,6 +22,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
+	// added temp String
 	private String str= "Adding changes in github";
 	
 	@GetMapping("/list")
