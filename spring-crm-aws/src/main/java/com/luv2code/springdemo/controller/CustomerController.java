@@ -22,6 +22,8 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
+	private int tempvalue;
+	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
