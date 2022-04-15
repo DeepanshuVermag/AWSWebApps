@@ -23,6 +23,7 @@ public class CustomerController {
 	private CustomerService customerService;
 	
 	//weibfwebeclipse
+	//eclipse change 2
 	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
