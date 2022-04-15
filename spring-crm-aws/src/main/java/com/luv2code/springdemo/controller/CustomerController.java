@@ -23,8 +23,6 @@ public class CustomerController {
 	private CustomerService customerService;
 	
 	
-	private String str= "Adding changes in github";
-	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
