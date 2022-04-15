@@ -22,7 +22,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
-
+	//weibfwebeclipse
 	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
