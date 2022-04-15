@@ -22,11 +22,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
-	//weibfwebeclipse
-	//eclipse change 2
-	//github change 1
-	//github change 2
-	
+
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
